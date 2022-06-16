@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+
 body {
     background: url("/img/cover.jpg");
     background-size: cover;
-    color: silver;
-    font-family: arial;
+    color: rgb(144, 104, 3);
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
@@ -10,23 +12,30 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Nuosu SIL', serif;
     
 }
 
 .main-content {
     flex-grow: 1;
+    color: wheat;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 footer {
-    color: #888888;
+    color: black;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 header {
     margin-top: 16px;
     margin-bottom: 48px;
+    color: rgb(144, 104, 3);
 }
 
 h1 {
@@ -35,7 +44,7 @@ h1 {
 }
 
 header a {
-    color: #888888;
+    color: rgb(144, 104, 3);
     margin-right: 16px;
     text-decoration: none;
 }
@@ -47,19 +56,24 @@ header a {
 input {
     border: 2px solid #cccccc;
     padding: 8px;
+    border-radius: 15px;
 }
+
 
 
 button{
     cursor: pointer;
     border: 2px solid #888888;
-    background: #888888;
+    border-radius: 14px;
+    background: #4a6b82;
     color: white;
     padding: 8px;
 }
 
 .instructions {
     color: black;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .cover{
@@ -72,7 +86,14 @@ button{
 }
 
 .credits{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 500;;
     color: darkblue;
+}
+
+
+.par-about {
+    font-weight: 500;
+    font-size: 30px;
+    color: gold;
 }
