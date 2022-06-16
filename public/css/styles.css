@@ -1,5 +1,7 @@
 body {
-    color: #333333;
+    background: url("/img/cover.jpg");
+    background-size: cover;
+    color: silver;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -7,7 +9,8 @@ body {
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
+    
 }
 
 .main-content {
@@ -53,4 +56,23 @@ button{
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+.instructions {
+    color: black;
+}
+
+.cover{
+    width: 100px;
+    height: 100px;
+}
+
+.info{
+    color: black;
+}
+
+.credits{
+    font-size: 20px;
+    font-weight: 500;
+    color: darkblue;
 }
